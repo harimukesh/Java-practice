@@ -23,5 +23,7 @@ public class Main {
 
         gen.print(list);
 
+        gen.print(list);
+
     }
 }
