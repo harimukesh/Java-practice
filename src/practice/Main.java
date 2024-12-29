@@ -85,13 +85,13 @@ public class Main implements  InterfaceTest{
 
 
         //Exception
-        /*try{
+        try{
             Exception.ExceptionMethod();
         }catch(RuntimeException e){
             System.out.println(e);
         }finally{
             System.out.println("finally");
-        }*/
+        }
 
         //Collections
 
@@ -124,6 +124,8 @@ public class Main implements  InterfaceTest{
         Arrays.sort(arr,(Integer a,Integer b) -> b-a);    // compare - comparator
         // Arrays.sort(arr,(int a,int b) -> b-a); it not possible compare only do for wrapper
         System.out.println(Arrays.toString(arr));
+
+        //Deque
         
     }
 }
